@@ -1,8 +1,8 @@
 {
-  "name": "karvini",
+  "name": "karvin",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
@@ -13,7 +13,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "expo": "~54.0.30",
+    "expo": "^54.0.30",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
     "react-native": "0.81.5"

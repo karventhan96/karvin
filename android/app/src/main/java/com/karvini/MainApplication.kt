@@ -1,4 +1,4 @@
-package com.karvini
+package com.karvin
 
 import android.app.Application
 import android.content.res.Configuration

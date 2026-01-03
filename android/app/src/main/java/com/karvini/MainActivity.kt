@@ -1,4 +1,4 @@
-package com.karvini
+package com.karvin
 
 import android.os.Build
 import android.os.Bundle
