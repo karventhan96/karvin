@@ -6,8 +6,21 @@ import tsParser from "@typescript-eslint/parser";
 import globals from "globals";
 
 export default [
+  // ✅ 1. GLOBAL ignores (applies to ALL files)
+  {
+    ignores: [
+      "metro.config.js",
+      "babel.config.js",
+      "node_modules/**",
+      "android/**",
+      "ios/**",
+    ],
+  },
+
+  // ✅ 2. Base JS rules
   js.configs.recommended,
 
+  // ✅ 3. TS / TSX rules
   {
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
